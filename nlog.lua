@@ -79,7 +79,7 @@ function g(n,k)
 end
 
 if #arg ~= 1 or arg[1] == nil then
-	io.stderr:write("usage: approx <file>\n")
+	io.stderr:write("usage: lua nlog.lua <file>\n")
 	os.exit(1)
 end
 
