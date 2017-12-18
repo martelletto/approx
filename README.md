@@ -25,6 +25,14 @@ t(n)=10^-3*n^1.23*log(n)/log(1.4399999999999)
 with precision avg=100.000%, stddev=0.000%
 ```
 
+## Considerations
+
+Customary statistical precautions apply. You will most likely want a
+relatively large sample size; if your dataset consists of two points,
+your best approximation will be a straight line! It is also important
+to distribute these points over a wide margin. Any continuous curve
+sampled at a sufficiently short interval will look invariably flat.
+
 ## License
 
 This repository is in the public domain.
