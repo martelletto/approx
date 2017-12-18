@@ -13,7 +13,7 @@ function loadResults(path)
 
 	local n, t = {}, {}
 	for l in f:lines() do
-		local x, y = l:match("(.+)\t(.+)")
+		local x, y = l:match("(.+)%s+(.+)")
 		x, y = tonumber(x), tonumber(y)
 		if not x or not y then
 			io.stderr:write(string.format(
