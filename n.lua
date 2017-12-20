@@ -76,5 +76,5 @@ for i=1,#n do
 	u[i] = x*n[i]^k
 end
 a,s = stddev(t,u)
-print(string.format("t(n)=%sn^%s",x,k))
+print(string.format("t(n)=%s*n^%s",x,k))
 print(string.format("with precision avg=%.3f%%, stddev=%.3f%%", a*100,s*100))
